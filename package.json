@@ -1,0 +1,28 @@
+{
+  "name": "graphql-type-registrator",
+  "version": "1.0.0",
+  "description": "Automatic register graphql types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fw7-solucoes/graphql-type-registrator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fw7-solucoes/graphql-type-registrator/issues"
+  },
+  "homepage": "https://github.com/fw7-solucoes/graphql-type-registrator#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
