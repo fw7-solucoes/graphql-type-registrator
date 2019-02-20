@@ -1,14 +1,17 @@
 {
-  "name": "graphql-type-registrator",
-  "version": "1.0.0",
+  "name": "@fw7/graphql-type-registrator",
+  "version": "1.0.1",
   "description": "Automatic register graphql types",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fw7-solucoes/graphql-type-registrator.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
   "author": "",
