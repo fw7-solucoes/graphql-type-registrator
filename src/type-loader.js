@@ -7,7 +7,7 @@ const load = (directories, type) => {
       const foundType = require(`${directory}/${type}`)
       return [...acc, foundType]
     } catch ({ message }) {
-      console.log(message)
+      return []
     }
   }, [])
 }

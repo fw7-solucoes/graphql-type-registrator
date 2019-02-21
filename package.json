@@ -1,6 +1,6 @@
 {
   "name": "@fw7/graphql-type-registrator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatic register graphql types",
   "main": "src/index.js",
   "scripts": {
