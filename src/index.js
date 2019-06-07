@@ -1,3 +1,3 @@
 const registrator = require('./registrator')
 
-module.exports = registrator
+module.exports = registrator()

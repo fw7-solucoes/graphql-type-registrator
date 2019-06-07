@@ -1,6 +1,6 @@
 {
   "name": "@fw7/graphql-type-registrator",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Automatic register graphql types",
   "main": "src/index.js",
   "scripts": {
@@ -27,5 +27,8 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "merge-graphql-schemas": "^1.5.8"
   }
 }

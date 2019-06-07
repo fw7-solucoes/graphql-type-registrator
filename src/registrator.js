@@ -1,3 +1,5 @@
+const { mergeTypes, mergeResolvers } = require('merge-graphql-schemas')
+
 const directories = require('./directories')
 const { load } = require('./type-loader')
 
@@ -12,6 +14,6 @@ const loadType = type => {
 }
 
 module.exports = () => ({
-  typeDefs: loadType('typeDefs'),
-  resolvers: loadType('resolvers')
+  typeDefs: mergeTypes(loadType('typeDefs'), { all: true }),
+  resolvers: mergeResolvers(loadType('resolvers'))
 })
